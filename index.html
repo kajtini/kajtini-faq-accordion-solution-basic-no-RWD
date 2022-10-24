@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <div class="card__left">
+        <img
+          class="card__bg"
+          src="images/illustration-woman-online-desktop.svg"
+          alt=""
+        />
+
+        <img
+          src="images/illustration-woman-online-mobile.svg"
+          alt="awda"
+          class="card__mobile-bg"
+        />
+      </div>
+      <img
+        class="card__box-icon"
+        src="images/illustration-box-desktop.svg"
+        alt=""
+      />
+      <div class="card__right">
+        <h1 class="card__title">FAQ</h1>
+        <ul class="items">
+          <li class="item">
+            <div class="item__question" data-index="0">
+              <span class="item__content"
+                >How many team members can I invite?
+              </span>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt=""
+                class="item__drop-icon"
+              />
+            </div>
+            <p class="item__answer hidden">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </li>
+          <li class="item">
+            <div class="item__question" data-index="1">
+              <span class="item__content"
+                >What is the maximum file upload size?
+              </span>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt=""
+                class="item__drop-icon"
+              />
+            </div>
+            <p class="item__answer hidden">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </li>
+          <li class="item">
+            <div class="item__question" data-index="2">
+              <span class="item__content">How do I reset my password? </span>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt=""
+                class="item__drop-icon"
+              />
+            </div>
+            <p class="item__answer hidden">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </li>
+          <li class="item">
+            <div class="item__question" data-index="3">
+              <span class="item__content">Can I cancel my subscription? </span>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt=""
+                class="item__drop-icon"
+              />
+            </div>
+            <p class="item__answer hidden">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </li>
+          <li class="item">
+            <div class="item__question" data-index="4">
+              <span class="item__content"
+                >Do you provide additional support?
+              </span>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt=""
+                class="item__drop-icon"
+              />
+            </div>
+            <p class="item__answer hidden">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
